@@ -118,11 +118,11 @@ deploy:
 - type: git
   repo: https://gitee.com/nigream/nigream
   branch: gitee-pages
-  message: Site updated:{{ now('YYYY-MM-DD HH:mm:ss') }})
+  message: Site updated:({{ now('YYYY-MM-DD HH:mm:ss') }})
 - type: git
   repo: https://github.com/nigream/nigream.github.io
   branch: gh-pages
-  message: Site updated:{{ now('YYYY-MM-DD HH:mm:ss') }})
+  message: Site updated:({{ now('YYYY-MM-DD HH:mm:ss') }})
 
   
 feed:
